@@ -11,7 +11,7 @@ const Header = () => {
                     <p className='text-2xl pb-1 '>ahul kumar</p>
 
                 </div>
-                <button className='btn btn-sm p-1 rounded-2xl'> work with me</button>
+                <button className='bg-amber-400 px-2 py-1 rounded-2xl'> work with me</button>
             </div>
         </div>
 

@@ -34,5 +34,15 @@
     padding: 1rem;
     border-radius: 100%;
   }
+
+  .section {
+
+     /* py-8 lg:py-24 lg:h-screen flex items-center; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    
+  }
   
   
