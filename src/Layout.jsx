@@ -4,7 +4,7 @@ import Header from './componenets/Header'
 
 function Layout() {
   return (
-    <div >
+    <div className='pb-20'>
     <Header/>
     <Navbar/>
     <Outlet />

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import {  NavLink } from "react-router-dom"
 import {BiHomeAlt , BiUser} from 'react-icons/bi' ;
 import { BsBriefcase, BsChatSquareText } from 'react-icons/bs' ;
 const Navbar = () => {
@@ -8,19 +8,19 @@ const Navbar = () => {
       <div className="container mx-auto" >
 
         {/* nav inner */}
-        <div className="w-full bg-blue-500/40 h-[46px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between item-center text-2xl text-black">
-          <Link to={'/'} smooth={true } spy={true} className="cursor-pointer w-[60px] h-[50px] flex items-center justify-center rounded-full hover:bg-white/20">
+        <div className="w-full bg-[#dfba7a] h-[46px] backdrop-blur-2xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between item-center text-2xl text-black">
+          <NavLink to={'/'} className={({isActive})=>`cursor-pointer w-[60px] h-[50px] flex items-center justify-center rounded-full  ${isActive ? "text-[#C14600]" : "text-gray-700"} focus:outline-none`}>
             <BiHomeAlt />
-          </Link>
-          <Link to={'/about'} smooth={true  } spy={true} className="cursor-pointer w-[60px] h-[50px] flex items-center justify-center rounded-full hover:bg-white/20">
+          </NavLink>
+          <NavLink to={'/about'} className={({isActive})=>`cursor-pointer w-[60px] h-[50px] flex items-center justify-center rounded-full  ${isActive ? "text-[#C14600]" : "text-gray-700"} focus:outline-none`}>
             <BiUser />
-          </Link>
-          <Link to={'/projects'} smooth={true } spy={true} className="cursor-pointer w-[60px] h-[50px] flex items-center justify-center rounded-full hover:bg-white/20">
+          </NavLink>
+          <NavLink to={'/projects'} className={({isActive})=>`cursor-pointer w-[60px] h-[50px] flex items-center justify-center rounded-full  ${isActive ? "text-[#C14600]" : "text-gray-700"} focus:outline-none`}>
             <BsBriefcase />
-          </Link>
-          <Link to={'/contact'} smooth={true  } spy={true} className="cursor-pointer w-[60px] h-[50px] flex items-center justify-center rounded-full hover:bg-white/20">
+          </NavLink>
+          <NavLink to={'/contact'} className={({isActive})=>`cursor-pointer w-[60px] h-[50px] flex items-center justify-center rounded-full  ${isActive ? "text-[#C14600]" : "text-gray-700"} focus:outline-none`}>
             <BsChatSquareText />
-          </Link>
+          </NavLink>
         </div>
       </div>
 
