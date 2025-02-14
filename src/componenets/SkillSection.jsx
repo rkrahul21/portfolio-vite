@@ -1,11 +1,9 @@
 import {
     FaReact,
     FaNode,
-    FaGitAlt,
     FaGithub,
     FaHtml5,
     FaCss3Alt,
-    FaBootstrap,
   } from "react-icons/fa";
   import { DiJavascript1 } from "react-icons/di";
   import { TbBrandCpp } from "react-icons/tb";
@@ -16,7 +14,6 @@ import {
     SiMongoose,
   } from "react-icons/si";
   import { TbBrandNextjs } from "react-icons/tb";
-  import { IoShieldSharp } from "react-icons/io5";
   
   const SkillSection = () => {
     return (
@@ -48,10 +45,7 @@ import {
           <SiMongoose />
           Mongoose
         </span>
-        <span className="flex items-center gap-1 sm:text-lg text-base font-light bg-[#FF9D23] hover:text-[#FF9D23] hover:bg-white hover:font-medium transition-all sm:py-2 py-2 sm:px-6 px-5 rounded-full cursor-default">
-          <IoShieldSharp />
-          NextAuth
-        </span>
+        
         <span className="flex items-center gap-1 sm:text-lg text-base font-light bg-[#FF9D23] hover:text-[#FF9D23] hover:bg-white hover:font-medium transition-all sm:py-2 py-2 sm:px-6 px-5 rounded-full cursor-default">
           <SiTailwindcss />
           Tailwind
@@ -68,17 +62,11 @@ import {
           <DiJavascript1 />
           Javascript
         </span>
-        <span className="flex items-center gap-1 sm:text-lg text-base font-light bg-[#FF9D23] hover:text-[#FF9D23] hover:bg-white hover:font-medium transition-all sm:py-2 py-2 sm:px-6 px-5 rounded-full cursor-default">
-          <FaBootstrap />
-          Bootstrap
-        </span>
+        
         <span className="flex items-center gap-1 sm:text-lg text-base font-light bg-[#FF9D23] hover:text-[#FF9D23] hover:bg-white hover:font-medium transition-all sm:py-2 py-2 sm:px-6 px-5 rounded-full cursor-default">
           Shadcn
         </span>
-        <span className="flex items-center gap-1 sm:text-lg text-base font-light bg-[#FF9D23] hover:text-[#FF9D23] hover:bg-white hover:font-medium transition-all sm:py-2 py-2 sm:px-6 px-5 rounded-full cursor-default">
-          <FaGitAlt />
-          Git Vcs
-        </span>
+        
         <span className="flex items-center gap-1 sm:text-lg text-base font-light bg-[#FF9D23] hover:text-[#FF9D23]bg-white hover:font-medium transition-all sm:py-2 py-2 sm:px-6 px-5 rounded-full cursor-default">
           <FaGithub />
           Github

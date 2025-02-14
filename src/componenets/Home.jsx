@@ -3,11 +3,12 @@ import { CiLinkedin } from "react-icons/ci";
 import { FaGithubSquare } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { SiGeeksforgeeks } from "react-icons/si";
+import About from './About';
 
 
 const Home = () => {
   return (
-    <div className='pt-[70px]'>
+    <div className='pt-[10px]'>
 
     <div className="w-full h-auto  flex flex-col md:flex-row items-center justify-center gap-4 py-8">
       {/* left section */}
@@ -45,10 +46,10 @@ const Home = () => {
       </div>
   
     </div>
-
+    <About />
     {/* educational section */}
     <div className='w-full  py-2 flex flex-col items-center justify-around gap-4'>
-      <h1 className='text-3xl underline  justify-start '> Educational Details</h1>
+      <h1 className='text-3xl underline  justify-start text-[#b56e17] font-semibold py-4 text-center'> Educational Details</h1>
       <div className='w-full md:w-[70%] flex  items-center justify-center gap-4 hover:shadow-md p-4 hover:bg-[#FEF9E1] hover:rounded-md '>
         <div className='w-1/4 text-center'>
         2021 - <span className='sm:inline-block'>20</span>25
@@ -94,6 +95,7 @@ const Home = () => {
       </div>
 
     </div>
+
     </div>
   )
 }

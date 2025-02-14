@@ -1,14 +1,12 @@
-// import CountUp from 'react-countup'
-// import {useInView} from 'react-intersection-observer'
-// import {motion} from 'framer-motion'
-// import { fadeIn } from '../variants'
+
+
 import SkillSection from "./SkillSection"
 
 const About = () => {
   
 
   return (
-    <section className='w-full flex flex-col px-10 items-center justify-center text-justify pt-[80px] ' id='about'  >
+    <section className='w-full flex flex-col px-10 items-center justify-center text-justify  ' id='about'  >
        <div id="about" className="w-full py-4 md:w-[80%] " >
       <h1 className=" text-3xl font-semibold underline text-[#b56e17] text-center mb-4">Abouts</h1>
       <p>
