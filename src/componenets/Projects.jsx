@@ -8,7 +8,7 @@ const Projects = () => {
       
       <div className="flex items-center justify-center flex-col gap-4">
       {projectList.map((project) => (
-        <div key={project.id} className="w-[90%] md:w-[70%] flex flex-col  gap-2 p-4  rounded-md shadow-md ">
+        <div key={project.id} className="w-[90%] md:w-[70%] flex flex-col  gap-2 p-4  rounded-md shadow-md  hover:bg-[#e9cea3] hover:rounded-md transition-transform transform hover:scale-110">
           <div className="flex justify-between items-center">
           <h1 className="text-2xl text-orange-700 font-semibold">{project.name}</h1>
           <a href={project.link} target="_blank" rel="noreferrer">

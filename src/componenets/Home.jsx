@@ -5,8 +5,8 @@ import { SiLeetcode } from "react-icons/si";
 import { SiGeeksforgeeks } from "react-icons/si";
 import About from './About';
 
-
 const Home = () => {
+  
   return (
     <div className='pt-[10px]'>
 
@@ -30,13 +30,13 @@ const Home = () => {
               <CiLinkedin className='text-[48px] text-amber-700/80 hover:text-green-500 cursor-pointer' />
 
             </a>
-            <a href="">
+            <a href="https://github.com/rkrahul21" target='_blank' rel='noreferrer'>
               <FaGithubSquare className='text-[48px] text-amber-700/80 hover:text-green-500 cursor-pointer' />
             </a>
             <a href="https://leetcode.com/u/rkumar21/" target='_blank' >
               <SiLeetcode className='text-4xl text-amber-700/80 hover:text-green-500 cursor-pointer' />
             </a>
-            <a href="">
+            <a href="https://www.geeksforgeeks.org/user/rahul2125/" target='_blank' >
               <SiGeeksforgeeks className='text-4xl text-amber-700/80 hover:text-green-500 cursor-pointer' />
             </a>
               
@@ -50,7 +50,7 @@ const Home = () => {
     {/* educational section */}
     <div className='w-full  py-2 flex flex-col items-center justify-around gap-4'>
       <h1 className='text-3xl underline  justify-start text-[#b56e17] font-semibold py-4 text-center'> Educational Details</h1>
-      <div className='w-full md:w-[70%] flex  items-center justify-center gap-4 hover:shadow-md p-4 hover:bg-[#FEF9E1] hover:rounded-md '>
+      <div className='w-full md:w-[70%] flex  items-center justify-center gap-4 hover:shadow-md p-4 hover:bg-[#FEF9E1] hover:rounded-md transition-transfrom hover:scale-110'>
         <div className='w-1/4 text-center'>
         2021 - <span className='sm:inline-block'>20</span>25
 
@@ -65,7 +65,7 @@ const Home = () => {
 
       </div>
 
-      <div className='w-full md:w-[70%] flex  items-center justify-center gap-4 hover:shadow-md p-4 hover:bg-[#FEF9E1] hover:rounded-md '>
+      <div className='w-full md:w-[70%] flex  items-center justify-center gap-4 hover:shadow-md p-4 hover:bg-[#FEF9E1] hover:rounded-md transition-transform hover:scale-105'>
         <div className='w-1/4 text-center'>
         2018 - <span className='sm:inline-block'>20</span>20
 
@@ -80,7 +80,7 @@ const Home = () => {
 
       </div>
 
-      <div className='w-full md:w-[70%] flex  items-center justify-center gap-4 hover:shadow-md p-4 hover:bg-[#FEF9E1] hover:rounded-md '>
+      <div className='w-full md:w-[70%] flex  items-center justify-center gap-4 hover:shadow-md p-4 hover:bg-[#FEF9E1] hover:rounded-md transition-transform hover:scale-105'>
         <div className='w-1/4 text-center'>
         2021 - <span className='sm:inline-block'>20</span>25
 
