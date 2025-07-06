@@ -2,47 +2,57 @@
 
 
 .btn {
-    background: linear-gradient(
-      92.23deg,
+  background: linear-gradient(92.23deg,
       #3bace2 100%,
-      #406aff 100.04%
-    );
-    box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
-  }
-  
-  .btn:hover {
-    background: linear-gradient(
-      92.23deg,
+      #406aff 100.04%);
+  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+}
+
+.btn:hover {
+  background: linear-gradient(92.23deg,
       #406aff 21.43%,
       #3bace2 50.63%,
 
     );
-  }
-  
-  .gradient,
-  .active {
-    background: linear-gradient(
-      92.23deg,
+}
+
+.gradient,
+.active {
+  background: linear-gradient(92.23deg,
       #406aff 49.40%,
       #3bace2 50.60%,
-      
+
     );
-  }
-  
-  .active {
-    color: #fff;
-    padding: 1rem;
-    border-radius: 100%;
+}
+
+.active {
+  color: #fff;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+.section {
+
+  /* py-8 lg:py-24 lg:h-screen flex items-center; */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
   }
 
-  .section {
-
-     /* py-8 lg:py-24 lg:h-screen flex items-center; */
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    display: flex;
-    align-items: center;
-    
+  to {
+    opacity: 1;
+    transform: scale(1);
   }
-  
-  
+}
